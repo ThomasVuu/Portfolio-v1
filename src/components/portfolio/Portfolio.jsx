@@ -7,7 +7,7 @@ import {
   mobilePortfolio,
   designPortfolio,
   contentPortfolio,
-} from "../../data";
+} from "../../dataOld";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
