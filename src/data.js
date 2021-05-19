@@ -2,7 +2,7 @@ export const aboutAboutMe = [
   {
     title: "About Me",
     img: "../../assets/meg.png",
-    desc: "Hello! I'm a 23years old computer engeneering student at Høgskulen på Vestlandet, excpected to examinate june 2021.",
+    desc: "Hello! I'm a 23 years old computer engeneering student at Høgskulen på Vestlandet, excpected to examinate june 2021.\n\nIn my sparetime I like to play tennis, fps videogames and code!",
   },
 ];
 export const stationaryAboutMe = [

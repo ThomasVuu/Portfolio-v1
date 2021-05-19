@@ -55,7 +55,7 @@ export default function AboutMe() {
         setData(aboutAboutMe);
         break;
     }
-  });
+  }, [selected]);
   return (
     <div className="aboutMe" id="aboutMe">
       <h1>Thomas Thanh Công Vu</h1>
@@ -73,7 +73,9 @@ export default function AboutMe() {
         {data.map((d) => (
           <div className="slide">
             <div className="left">
-              <img src={d.img} alt="" className="imgContainer" />
+              <div className="imgContainer">
+                <img src={d.img} alt="" className="img" />
+              </div>
             </div>
             <div className="right">
               <div className="rightContainer">
